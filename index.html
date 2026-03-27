@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eliza Computer Institute</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+        }
+
+        header {
+            background: rgba(0,0,0,0.7);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 35px;
+        }
+
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .section {
+            background: rgba(255,255,255,0.1);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #ffd700;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 5px;
+            font-size: 18px;
+        }
+
+        .btn {
+            background: #ffd700;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: orange;
+        }
+
+        footer {
+            background: black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Eliza Computer Institute</h1>
+    <p>Director: Yash Pal</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>📍 Address</h2>
+        <p>Gosai Ki Bazar, Rasulpur Bajbahadur, Azamgarh, UP</p>
+    </div>
+
+    <div class="section">
+        <h2>📞 Contact</h2>
+        <p>Phone: 7007954898</p>
+        <button class="btn" onclick="callNow()">Call Now</button>
+    </div>
+
+    <div class="section">
+        <h2>📚 Our Courses</h2>
+        <ul>
+            <li>DCA</li>
+            <li>ADC</li>
+            <li>CCC</li>
+            <li>Tally</li>
+            <li>Advance Excel</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🎨 Designing Courses</h2>
+        <ul>
+            <li>Photoshop</li>
+            <li>Corel Draw</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>💻 Programming & Networking</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>Networking</li>
+            <li>Computer Training</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Eliza Computer Institute | All Rights Reserved</p>
+</footer>
+
+<script>
+    function callNow() {
+        window.location.href = "tel:7007954898";
+    }
+</script>
+
+</body>
+</html>
